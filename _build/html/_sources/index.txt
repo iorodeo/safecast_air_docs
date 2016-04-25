@@ -10,14 +10,17 @@ Safecast Air
 .. figure:: _static/board_4.png
    :align:  center
 
+   Image of Prototype V0.1 R2
+
    
    
 Table of Contents
-==============================================
-
+----------------------
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
-   hardware.rst
+   toc.rst
+
+
 

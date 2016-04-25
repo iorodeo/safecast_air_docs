@@ -24,7 +24,9 @@
     <script type="text/javascript" src="_static/underscore.js"></script>
     <script type="text/javascript" src="_static/doctools.js"></script>
     <link rel="top" title="Safecast Air Documentation" href="index.html" />
-    <link rel="prev" title="Safecast Air" href="index.html" /> 
+    <link rel="up" title="Table of Contents" href="toc.html" />
+    <link rel="next" title="1) Resistors" href="pcb_1.html" />
+    <link rel="prev" title="Table of Contents" href="toc.html" /> 
   </head>
   <body>
       <div class="header"><a href="http://www.iorodeo.com"  target="_blank">
@@ -36,9 +38,11 @@
       <div class="topnav">
       
         <p>
-        «&#160;&#160;<a href="index.html">Safecast Air</a>
+        «&#160;&#160;<a href="toc.html">Table of Contents</a>
         &#160;&#160;::&#160;&#160;
         <a class="uplink" href="index.html">Contents</a>
+        &#160;&#160;::&#160;&#160;
+        <a href="pcb_1.html">1) Resistors</a>&#160;&#160;»
         </p>
 
       </div>
@@ -51,17 +55,19 @@
 <h2>Board Images<a class="headerlink" href="#board-images" title="Permalink to this headline">¶</a></h2>
 <div class="figure align-center">
 <img alt="_images/board_ver2.png" src="_images/board_ver2.png" />
+<p class="caption">Images of Prototype V0.1 R2 (new images of R3 to be added)</p>
 </div>
 </div>
 <div class="section" id="bill-of-materials">
 <h2>Bill Of Materials<a class="headerlink" href="#bill-of-materials" title="Permalink to this headline">¶</a></h2>
+<p><strong>This is the current BOM for prototype V0.1 R3.</strong></p>
 <table border="1" class="docutils">
 <colgroup>
-<col width="13%" />
+<col width="12%" />
 <col width="5%" />
-<col width="45%" />
-<col width="19%" />
+<col width="43%" />
 <col width="18%" />
+<col width="22%" />
 </colgroup>
 <thead valign="bottom">
 <tr class="row-odd"><th class="head">Ref</th>
@@ -72,63 +78,123 @@
 </tr>
 </thead>
 <tbody valign="top">
-<tr class="row-even"><td>P1, P2</td>
+<tr class="row-even"><td>R1-23 (odd)</td>
+<td>12</td>
+<td>68K resistor (1%)</td>
+<td>Digikey</td>
+<td>S68KCACT-ND</td>
+</tr>
+<tr class="row-odd"><td>R2-24 (even)</td>
+<td>12</td>
+<td>20K resistor (1%)</td>
+<td>Digikey</td>
+<td>S20KCACT-ND</td>
+</tr>
+<tr class="row-even"><td>R25,R26</td>
+<td>2</td>
+<td>10k resistor</td>
+<td>Digikey</td>
+<td>S10KQCT-ND</td>
+</tr>
+<tr class="row-odd"><td>R27</td>
+<td>1</td>
+<td>20K resistor</td>
+<td>Digikey</td>
+<td>S20KQCT-ND</td>
+</tr>
+<tr class="row-even"><td>R28</td>
+<td>1</td>
+<td>12k resistor</td>
+<td>Digikey</td>
+<td>S12KQCT-ND</td>
+</tr>
+<tr class="row-odd"><td>R29,R30</td>
+<td>2</td>
+<td>4.7k resistor (select via I2C requirements)</td>
+<td>Digikey</td>
+<td>S4.7KQCT-ND</td>
+</tr>
+<tr class="row-even"><td>C1</td>
+<td>1</td>
+<td>0.1uf ceramic capacitor</td>
+<td>Digikey</td>
+<td>399-4151-ND</td>
+</tr>
+<tr class="row-odd"><td>P1, P2</td>
 <td>2</td>
 <td>Mini shrouded header, 5x2</td>
 <td>Digikey</td>
 <td>WM18560-ND</td>
 </tr>
-<tr class="row-odd"><td>P3</td>
+<tr class="row-even"><td>P3</td>
 <td>1</td>
 <td>Shrouded header, 5x2</td>
 <td>Digikey</td>
 <td>S9169-ND</td>
 </tr>
-<tr class="row-even"><td>P4</td>
-<td>1</td>
+<tr class="row-odd"><td>P4, P11</td>
+<td>2</td>
 <td>2x2 pin array</td>
 <td>Digikey</td>
-<td>&nbsp;</td>
+<td>609-3225-ND</td>
 </tr>
-<tr class="row-odd"><td>P5,7,8,9</td>
-<td>4</td>
+<tr class="row-even"><td>P5,7,8</td>
+<td>3</td>
 <td>Breakaway header, male pins, 36 pos</td>
 <td>Digikey</td>
 <td>3M9457-ND</td>
 </tr>
-<tr class="row-even"><td>P6</td>
+<tr class="row-odd"><td>P6</td>
 <td>1</td>
 <td>Screw terminal block, 2-pos</td>
 <td>Digikey</td>
 <td>ED2635-ND</td>
 </tr>
-<tr class="row-odd"><td>S1</td>
+<tr class="row-even"><td>P9</td>
+<td>1</td>
+<td>6-pin JST XH connector</td>
+<td>Digikey</td>
+<td>455-2271-ND</td>
+</tr>
+<tr class="row-odd"><td>P10</td>
+<td>1</td>
+<td>5-pin JST XH connector</td>
+<td>Digikey</td>
+<td>455-2270-ND</td>
+</tr>
+<tr class="row-even"><td>S1</td>
 <td>1</td>
 <td>Switch, 4-direction with center push</td>
 <td>Online components</td>
 <td>SKQUCAA010</td>
 </tr>
-<tr class="row-even"><td>S2</td>
+<tr class="row-odd"><td>S2</td>
 <td>1</td>
 <td>Slide switch</td>
 <td>Digikey</td>
 <td>401-2000-ND</td>
 </tr>
-<tr class="row-odd"><td>U1</td>
+<tr class="row-even"><td>U1</td>
 <td>1</td>
 <td>Adafruit Ultimate GPS Breakout</td>
 <td>Adafruit</td>
 <td>746</td>
 </tr>
-<tr class="row-even"><td>U2</td>
+<tr class="row-odd"><td>U2</td>
 <td>1</td>
 <td>XBEE</td>
 <td>Sparkfun</td>
 <td>WRL-08742</td>
 </tr>
+<tr class="row-even"><td>(or</td>
+<td>1</td>
+<td>RN-XV WiFly</td>
+<td>Sparkfun</td>
+<td>WRL-10822)</td>
+</tr>
 <tr class="row-odd"><td>U2</td>
 <td>2</td>
-<td>10pin XBee Socket</td>
+<td>2mm 10pin XBee Socket</td>
 <td>Sparkfun</td>
 <td>PRT-08272</td>
 </tr>
@@ -170,21 +236,15 @@
 </tr>
 <tr class="row-even"><td>U7</td>
 <td>1</td>
-<td>Resistor array, bussed</td>
+<td>Resistor array, isolated</td>
 <td>Digikey</td>
-<td>4606X-1-103LF-ND</td>
+<td>4608X-2-102LF-ND</td>
 </tr>
-<tr class="row-odd"><td>R1-23 (odd)</td>
-<td>12</td>
-<td>68K resistor</td>
+<tr class="row-odd"><td>U8</td>
+<td>1</td>
+<td>Schmitt buffer</td>
 <td>Digikey</td>
-<td>S68KCACT-ND</td>
-</tr>
-<tr class="row-even"><td>R2-24 (even)</td>
-<td>12</td>
-<td>20K resistor</td>
-<td>Digikey</td>
-<td>S20KCACT-ND</td>
+<td>TC7SZ17FU(T5LJFTCT-ND</td>
 </tr>
 </tbody>
 </table>
@@ -231,9 +291,11 @@
       <div class="bottomnav">
       
         <p>
-        «&#160;&#160;<a href="index.html">Safecast Air</a>
+        «&#160;&#160;<a href="toc.html">Table of Contents</a>
         &#160;&#160;::&#160;&#160;
         <a class="uplink" href="index.html">Contents</a>
+        &#160;&#160;::&#160;&#160;
+        <a href="pcb_1.html">1) Resistors</a>&#160;&#160;»
         </p>
 
       </div>

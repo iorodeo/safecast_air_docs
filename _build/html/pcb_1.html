@@ -1,0 +1,102 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>1) Resistors &mdash; Safecast Air Documentation</title>
+    
+    <link rel="stylesheet" href="_static/haiku.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="top" title="Safecast Air Documentation" href="index.html" />
+    <link rel="up" title="Table of Contents" href="toc.html" />
+    <link rel="next" title="2) Joystick input circuit" href="pcb_2.html" />
+    <link rel="prev" title="Hardware" href="hardware.html" /> 
+  </head>
+  <body>
+      <div class="header"><a href="http://www.iorodeo.com"  target="_blank">
+  <img class="rightlogo" src="_static/logo.png" alt="Logo"/>
+  </a><h1 class="heading"><a href="index.html">
+  <span>Safecast Air Documentation</span></a></h1>
+<h2 class="heading"><span>1) Resistors</span></h2>
+      </div>
+      <div class="topnav">
+      
+        <p>
+        «&#160;&#160;<a href="hardware.html">Hardware</a>
+        &#160;&#160;::&#160;&#160;
+        <a class="uplink" href="index.html">Contents</a>
+        &#160;&#160;::&#160;&#160;
+        <a href="pcb_2.html">2) Joystick input circuit</a>&#160;&#160;»
+        </p>
+
+      </div>
+      <div class="content">
+        
+        
+  <div class="section" id="resistors">
+<h1>1) Resistors<a class="headerlink" href="#resistors" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="voltage-divider-resistors-for-the-alphasense-4-electrode-gas-sensors">
+<h2>Voltage divider resistors for the alphasense 4-electrode gas sensors<a class="headerlink" href="#voltage-divider-resistors-for-the-alphasense-4-electrode-gas-sensors" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>R1-R23 odd-numbered resistors (68K) and R2-R24 even-numbered resistors (20K) are paired. For example, R1 &amp; R2 are paired, R3 &amp; R4 etc.</li>
+<li>Each resistor pair is for one of the 12 analog inputs.</li>
+<li>The resistor pair form a voltage divider for scaling 0-5V sensor output to 0-1.2V analog input range (using 1.2V internal reference voltage).</li>
+</ul>
+<p>Take the 68K resistors are solder these into each of the 12 odd-numbered positions from R1-R23 i.e. R1,3,5,7,9,11,13,15,17,19,21 and 23.</p>
+<div class="figure align-center">
+<img alt="_images/1a.JPG" src="_images/1a.JPG" />
+</div>
+<p>Next, take the 20K resistors are solder these into each of the 12 even-numbered positions from R2-R24 i.e. R2,4,6,8,10,12,14,16,18,20,22 and 24.</p>
+<div class="figure align-center">
+<img alt="_images/2b.JPG" src="_images/2b.JPG" />
+</div>
+</div>
+<div class="section" id="pull-up-resistors">
+<h2>Pull-up resistors<a class="headerlink" href="#pull-up-resistors" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>R25 and R26 are pull-up resistors for the amphenol particulate sensor (P10). Note, these will be likely removed in the next board revision.</li>
+<li>R29 and R30 are I2C pull-up resistors for the UEXT header</li>
+</ul>
+<p>Solder these resistors to the board as shown in the image below.</p>
+<div class="figure align-center">
+<img alt="_images/5.JPG" src="_images/5.JPG" />
+</div>
+</div>
+</div>
+
+
+      </div>
+      <div class="bottomnav">
+      
+        <p>
+        «&#160;&#160;<a href="hardware.html">Hardware</a>
+        &#160;&#160;::&#160;&#160;
+        <a class="uplink" href="index.html">Contents</a>
+        &#160;&#160;::&#160;&#160;
+        <a href="pcb_2.html">2) Joystick input circuit</a>&#160;&#160;»
+        </p>
+
+      </div>
+
+    <div class="footer">
+        &copy; Copyright 2015, IO Rodeo.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.2.2.
+    </div>
+  </body>
+</html>
