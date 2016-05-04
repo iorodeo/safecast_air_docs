@@ -1,18 +1,25 @@
-Alphasense Individual Sensor Board (ISB)
+Alphasense Individual Sensor Boards (B4)
 ============================================
 
-About the sensors
-----------------------
-
-These are the larger B4 size (32mm) Individual Sensor Board (ISB) from Alphasense.
+.. figure:: _static/alphasense_gas_2.png
+   :align:  center
 
 
-Use the Safecast ISB Adaptor Board to connect up to 3 of the B4 sensors to the Safecast Air board.
+* These are the larger B4 size (32mm) Individual Sensor Board (ISB) from Alphasense.
 
 
-BOM for Safecast ISB Adaptor Board
-----------------------------------------
-   
+
+Safecast ISB Adaptor Board
+-------------------------------------------
+
+* Use the Safecast ISB Adaptor Board to connect up to 3 of the B4 sensors to the Safecast Air board
+* ISB Adaptor Board also includes a temperature sensor
+
+.. figure:: _static/isb_front.png
+   :align:  center
+
+ISB Adaptor Board BOM
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 =============  =====  =============================================   ===================     =======================         
 Ref            Qty    Description                                     Vendor                  Part #
@@ -24,19 +31,25 @@ C2,4,6,7        4      100 nF                                          Digikey  
 U1              1      Temperature Sensor                              Digikey                 TMP36GT9Z-ND
 =============  =====  =============================================   ===================     =======================         
  
-
+Connecting to the Safecast Air Board
+------------------------------------------
  
+* Mount up to 3 of the sensors to the Safecast ISB Adaptor Board
  
 .. figure:: _static/isb_3.png
    :align:  center
 
- 
+
 .. figure:: _static/isb_4.png
    :align:  center
+
+
+
+* The Safecast Air Board includes two designated headers (P1 and P2) for the Alphasense air sensors. 
+* Using the same connector ribbon cable as described on the previous page, connect the ribbon cable to the back of the ISB Adaptor board and the P1 and/or P2 header on the Safecast Air Board.
 
 .. figure:: _static/isb_5.png
    :align:  center
 
-   
 .. figure:: _static/isb_6.png
    :align:  center
