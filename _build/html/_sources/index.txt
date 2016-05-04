@@ -7,10 +7,10 @@ Safecast Air
 ====================================
 
 
-.. figure:: _static/board_4.png
+.. figure:: _static/rev3_1.png
    :align:  center
 
-   Image of Prototype V0.1 R2
+   Image of Prototype V0.1 R3
 
    
    

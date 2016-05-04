@@ -2,20 +2,20 @@ Hardware
 ===================
 
 
-Board Images
---------------------
+Image of Prototype V0.1 R3 
+------------------------------
 
 
-.. figure:: _static/board_ver2.png
+.. figure:: _static/rev3_1.png
    :align:  center
 
-   Images of Prototype V0.1 R2 (new images of R3 to be added)
+   
   
 
 Bill Of Materials
 --------------------
    
-**This is the current BOM for prototype V0.1 R3.**
+**This is the BOM for prototype V0.1 R3 shown above**
 
 =============  =====  =============================================   ===================     =======================         
 Ref            Qty    Description                                     Vendor                  Part #

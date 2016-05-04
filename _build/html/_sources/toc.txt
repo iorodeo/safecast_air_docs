@@ -13,8 +13,8 @@ Bill of Materials
 
    hardware.rst
 
-Build Instructions
-^^^^^^^^^^^^^^^^^^^^^^^^
+Build Instructions for v0.1 R3
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. toctree::
    :maxdepth: 2
@@ -32,11 +32,20 @@ Build Instructions
 
    
    
-Testing the board
-^^^^^^^^^^^^^^^^^^^^^^^^
-
 Connecting sensors to the board
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. toctree::
+   :maxdepth: 2
+
+   sensor_1.rst
+   sensor_2.rst
+   
+
+
+
+
+
 
 Building the enclosure
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
