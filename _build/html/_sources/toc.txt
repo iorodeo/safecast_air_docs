@@ -40,6 +40,8 @@ Connecting sensors to the board
 
    sensor_1.rst
    sensor_2.rst
+   sensor_3.rst
+   sensor_4.rst
    
 
 
