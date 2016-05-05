@@ -5,8 +5,10 @@ Alphasense Particulate Monitor (OPC-N2)
 .. figure:: _static/opc_n2_1.png
    :align:  center
 
+|
 
-* The Safecast Air Board includes a designated header (P9) for the Alphasense particulate monitor. 
+
+
 * The Optical Particle Monitor (OPC-N2) measure PM1, PM2.5 and PM10. 
 * More information on the Particulate Sensor can be found on the Alphasense website: http://www.alphasense.com/index.php/products/optical-particle-counter/
 
@@ -29,7 +31,27 @@ Qty    Description                                     Vendor                  P
 Other tools you will need to make the cable: hand crimp e.g. Molex hand crimp.
 
 
+
+.. figure:: _static/opc_cable_3.png
+   :align:  center
+
+
+
 Connecting to the board
 ----------------------------
+
+
+* The Safecast Air Board has a designated header (P9) for the OPC-N2 particulate monitor. 
+* Connect the OPC-N2 custom cable to the front of the OPC-N2 monitor and the P9 header on the Safecast Air Board.
+
+
+
+.. figure:: _static/opc_cable_4.png
+   :align:  center
+
+
+.. figure:: _static/opc_cable_5.png
+   :align:  center
+
 
 

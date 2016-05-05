@@ -2,8 +2,8 @@ Table of Contents
 =======================
 
 
-Safecast Air Board
----------------------------
+Safecast Air Board v0.1 R3 (current version)
+-------------------------------------------------
 
 Bill of Materials
 ^^^^^^^^^^^^^^^^^^^^^^
@@ -13,8 +13,8 @@ Bill of Materials
 
    hardware.rst
 
-Build Instructions for v0.1 R3
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Build Instructions
+^^^^^^^^^^^^^^^^^^^^^
 
 .. toctree::
    :maxdepth: 2
@@ -31,9 +31,18 @@ Build Instructions for v0.1 R3
    pcb_10.rst
 
    
+Safecast Air Board v0.1 R4 (in progress)
+---------------------------------------------
+
+.. toctree::
+   :maxdepth: 2
+
+   version_4.rst
+
+
    
 Connecting sensors to the board
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+--------------------------------------
 
 .. toctree::
    :maxdepth: 2
@@ -50,4 +59,4 @@ Connecting sensors to the board
 
 
 Building the enclosure
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+---------------------------

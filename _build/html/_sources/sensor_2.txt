@@ -5,7 +5,13 @@ Alphasense Individual Sensor Boards (B4)
    :align:  center
 
 
-* These are the larger B4 size (32mm) Individual Sensor Board (ISB) from Alphasense.
+|
+
+
+* These are the larger B4 size (32mm) Individual Sensor Board (ISB) from Alphasense
+* Like the smaller A4 type, these are also available for measuring several gases including carbon monoxide, ozone, nitric oxide and more
+* More information on the A4 air quality sensors can be found on the Alphasense website: http://www.alphasense.com/index.php/air/products/
+
 
 
 
@@ -44,6 +50,7 @@ Connecting to the Safecast Air Board
    :align:  center
 
 
+|
 
 * The Safecast Air Board includes two designated headers (P1 and P2) for the Alphasense air sensors. 
 * Using the same connector ribbon cable as described on the previous page, connect the ribbon cable to the back of the ISB Adaptor board and the P1 and/or P2 header on the Safecast Air Board.

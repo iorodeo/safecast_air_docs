@@ -4,8 +4,11 @@ Alphasense Air Sensors (A4)
 .. figure:: _static/alphasense_gas_1b.png
    :align:  center
 
+|
 
-* These are the A4 small (20mm) Alphasense AFE gas sensors mounted in a A4 x 3 configuration.
+* These are the A4 small (20mm) Alphasense AFE gas sensors mounted in a A4 x 3 configuration
+* Available for measuring several gases including carbon monoxide, ozone, nitric oxide and more
+* More information on the A4 air quality sensors can be found on the Alphasense website: http://www.alphasense.com/index.php/air/products/
 
 
 Connecting to the Safecast Air Board
