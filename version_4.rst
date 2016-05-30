@@ -1,15 +1,12 @@
-Notes on upcoming version r4
+Notes on changes to version r4
 ==================================
 
-Below is a layout image for the new board (ver 0.1 rev 4). 
+Below is a layout image for the most recent board (ver 0.1 rev 4). 
 
  
 .. figure:: _static/safecast_v0p1_r4_sized.png
    :align:  center
 
-|
-
-The boards have been ordered and are expected to arrive in late May 2016.
 
 Safecast V0.1 R4 Change notes
 -----------------------------------

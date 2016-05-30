@@ -24,7 +24,7 @@
     <script type="text/javascript" src="_static/underscore.js"></script>
     <script type="text/javascript" src="_static/doctools.js"></script>
     <link rel="top" title="Safecast Air Documentation" href="index.html" />
-    <link rel="next" title="Hardware" href="hardware.html" />
+    <link rel="next" title="Notes on changes to version r4" href="version_4.html" />
     <link rel="prev" title="Safecast Air" href="index.html" /> 
   </head>
   <body>
@@ -41,7 +41,7 @@
         &#160;&#160;::&#160;&#160;
         <a class="uplink" href="index.html">Contents</a>
         &#160;&#160;::&#160;&#160;
-        <a href="hardware.html">Hardware</a>&#160;&#160;»
+        <a href="version_4.html">Notes on changes to version r4</a>&#160;&#160;»
         </p>
 
       </div>
@@ -50,62 +50,55 @@
         
   <div class="section" id="table-of-contents">
 <h1>Table of Contents<a class="headerlink" href="#table-of-contents" title="Permalink to this headline">¶</a></h1>
-<div class="section" id="safecast-air-board-v0-1-r3-current-version">
-<h2>Safecast Air Board v0.1 R3 (current version)<a class="headerlink" href="#safecast-air-board-v0-1-r3-current-version" title="Permalink to this headline">¶</a></h2>
-<div class="section" id="bill-of-materials">
-<h3>Bill of Materials<a class="headerlink" href="#bill-of-materials" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="safecast-air-board-v0-1-r4-current-version">
+<h2>Safecast Air Board v0.1 R4 (current version)<a class="headerlink" href="#safecast-air-board-v0-1-r4-current-version" title="Permalink to this headline">¶</a></h2>
 <div class="toctree-wrapper compound">
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="hardware.html">Hardware</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="hardware.html#image-of-prototype-v0-1-r3">Image of Prototype V0.1 R3</a></li>
-<li class="toctree-l2"><a class="reference internal" href="hardware.html#bill-of-materials">Bill Of Materials</a></li>
+<li class="toctree-l1"><a class="reference internal" href="version_4.html">Notes on changes to version r4</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="version_4.html#safecast-v0-1-r4-change-notes">Safecast V0.1 R4 Change notes</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="hardware.html#id1">Hardware</a></li>
+<li class="toctree-l1"><a class="reference internal" href="hardware_r4.html">Hardware</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="hardware_r4.html#image-of-prototype-v0-1-r4">Image of Prototype V0.1 R4</a></li>
+<li class="toctree-l2"><a class="reference internal" href="hardware_r4.html#bill-of-materials">Bill Of Materials</a></li>
 </ul>
-</div>
+</li>
+</ul>
 </div>
 <div class="section" id="build-instructions">
 <h3>Build Instructions<a class="headerlink" href="#build-instructions" title="Permalink to this headline">¶</a></h3>
 <div class="toctree-wrapper compound">
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="pcb_1.html">1) Resistors</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="pcb_1.html#voltage-divider-resistors-for-the-alphasense-4-electrode-gas-sensors">Voltage divider resistors for the alphasense 4-electrode gas sensors</a></li>
-<li class="toctree-l2"><a class="reference internal" href="pcb_1.html#pull-up-resistors">Pull-up resistors</a></li>
+<li class="toctree-l1"><a class="reference internal" href="v4_pcb_1.html">1) Surface mount components</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="v4_pcb_1.html#voltage-divider-resistors-for-the-alphasense-4-electrode-gas-sensors">Voltage divider resistors for the alphasense 4-electrode gas sensors</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v4_pcb_1.html#mosfeft-power-switch-components">MOSFEFT power switch components</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v4_pcb_1.html#circuity-for-toggle-switch">Circuity for toggle switch</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v4_pcb_1.html#resistors-for-uext-header">Resistors for UEXT header</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v4_pcb_1.html#images-of-the-board-after-soldering">Images of the board after soldering</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="pcb_2.html">2) Joystick input circuit</a></li>
-<li class="toctree-l1"><a class="reference internal" href="pcb_3.html">3) Headers for gas, particulate sensors</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="pcb_3.html#sensor-headers">Sensor Headers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="v4_pcb_2.html">2) Joystick input circuit</a></li>
+<li class="toctree-l1"><a class="reference internal" href="v4_pcb_3.html">3) External 5V power</a></li>
+<li class="toctree-l1"><a class="reference internal" href="v4_pcb_4.html">4) Headers for gas, particulate sensors</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="v4_pcb_4.html#sensor-headers">Sensor Headers</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="pcb_4.html">4) External 5V power</a></li>
-<li class="toctree-l1"><a class="reference internal" href="pcb_5.html">5) Configuration and expansion headers</a></li>
-<li class="toctree-l1"><a class="reference internal" href="pcb_6.html">6) OpenLOG and 3V3 Headers</a></li>
-<li class="toctree-l1"><a class="reference internal" href="pcb_7.html">7) Teensy Headers</a></li>
-<li class="toctree-l1"><a class="reference internal" href="pcb_8.html">8) GPS, LCD and XBEE Headers</a></li>
-<li class="toctree-l1"><a class="reference internal" href="pcb_9.html">9) Placing large components</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="pcb_9.html#openlog-sd-card-data-logger">OpenLog SD card data logger</a></li>
-<li class="toctree-l2"><a class="reference internal" href="pcb_9.html#pololu-3v3-power-regulator">Pololu 3V3  power regulator</a></li>
-<li class="toctree-l2"><a class="reference internal" href="pcb_9.html#xbee-wifly-wireless-communication-module">XBEE/WiFly wireless communication module</a></li>
-<li class="toctree-l2"><a class="reference internal" href="pcb_9.html#adafruit-ultimate-gps-breakout">Adafruit Ultimate GPS Breakout</a></li>
-<li class="toctree-l2"><a class="reference internal" href="pcb_9.html#adafruit-oled-graphic-display">Adafruit OLED graphic display</a></li>
+<li class="toctree-l1"><a class="reference internal" href="v4_pcb_5.html">5) Configuration and expansion headers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="v4_pcb_6.html">6) OpenLOG and 3V3 Headers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="v4_pcb_7.html">7) Teensy Headers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="v4_pcb_8.html">8) GPS, LCD and XBEE Headers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="v4_pcb_9.html">9) Placing large components</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="v4_pcb_9.html#adafruit-temp-humidity-sensor">AdaFruit Temp/Humidity Sensor</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v4_pcb_9.html#openlog-sd-card-data-logger">OpenLog SD card data logger</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v4_pcb_9.html#pololu-3v3-power-regulator">Pololu 3V3  power regulator</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v4_pcb_9.html#xbee-wifly-wireless-communication-module">XBEE/WiFly wireless communication module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v4_pcb_9.html#adafruit-ultimate-gps-breakout">Adafruit Ultimate GPS Breakout</a></li>
+<li class="toctree-l2"><a class="reference internal" href="v4_pcb_9.html#adafruit-oled-graphic-display">Adafruit OLED graphic display</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="pcb_10.html">10) Teensy board</a></li>
+<li class="toctree-l1"><a class="reference internal" href="v4_pcb_10.html">10) Teensy board</a></li>
 </ul>
 </div>
-</div>
-</div>
-<div class="section" id="safecast-air-board-v0-1-r4-in-progress">
-<h2>Safecast Air Board v0.1 R4 (in progress)<a class="headerlink" href="#safecast-air-board-v0-1-r4-in-progress" title="Permalink to this headline">¶</a></h2>
-<div class="toctree-wrapper compound">
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="version_4.html">Notes on upcoming version r4</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="version_4.html#safecast-v0-1-r4-change-notes">Safecast V0.1 R4 Change notes</a></li>
-</ul>
-</li>
-</ul>
 </div>
 </div>
 <div class="section" id="connecting-sensors-to-the-board">
@@ -133,6 +126,27 @@
 <div class="section" id="building-the-enclosure">
 <h2>Building the enclosure<a class="headerlink" href="#building-the-enclosure" title="Permalink to this headline">¶</a></h2>
 </div>
+<div class="section" id="archive-older-board-versions">
+<h2>Archive - older board versions<a class="headerlink" href="#archive-older-board-versions" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="safecast-air-board-v0-1-r3">
+<h3>Safecast Air Board v0.1 R3<a class="headerlink" href="#safecast-air-board-v0-1-r3" title="Permalink to this headline">¶</a></h3>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="hardware.html">Hardware</a></li>
+<li class="toctree-l1"><a class="reference internal" href="pcb_1.html">1) Resistors</a></li>
+<li class="toctree-l1"><a class="reference internal" href="pcb_2.html">2) Joystick input circuit</a></li>
+<li class="toctree-l1"><a class="reference internal" href="pcb_3.html">3) Headers for gas, particulate sensors</a></li>
+<li class="toctree-l1"><a class="reference internal" href="pcb_4.html">4) External 5V power</a></li>
+<li class="toctree-l1"><a class="reference internal" href="pcb_5.html">5) Configuration and expansion headers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="pcb_6.html">6) OpenLOG and 3V3 Headers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="pcb_7.html">7) Teensy Headers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="pcb_8.html">8) GPS, LCD and XBEE Headers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="pcb_9.html">9) Placing large components</a></li>
+<li class="toctree-l1"><a class="reference internal" href="pcb_10.html">10) Teensy board</a></li>
+</ul>
+</div>
+</div>
+</div>
 </div>
 
 
@@ -144,7 +158,7 @@
         &#160;&#160;::&#160;&#160;
         <a class="uplink" href="index.html">Contents</a>
         &#160;&#160;::&#160;&#160;
-        <a href="hardware.html">Hardware</a>&#160;&#160;»
+        <a href="version_4.html">Notes on changes to version r4</a>&#160;&#160;»
         </p>
 
       </div>
