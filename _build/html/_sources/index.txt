@@ -8,7 +8,7 @@ Safecast Air
 
 This is the project documentation for the Safecast Air Board. Includes the parts lists and build instructions for making a Safecast Air Board. 
 
-.. figure:: _static/safecast_7_annotated.png
+.. figure:: _static/v4_10.png
    :align:  center
 
 

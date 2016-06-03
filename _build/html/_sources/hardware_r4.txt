@@ -5,9 +5,8 @@ Hardware
 Image of Prototype V0.1 R4 
 ------------------------------
 
-TO BE ADDED
 
-.. figure:: _static/rev3_1.png
+.. figure:: _static/v4_10.png
    :align:  center
 
    

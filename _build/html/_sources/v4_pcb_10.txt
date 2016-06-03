@@ -17,5 +17,5 @@ Place the Teensy board into the female headers as shown below.
 
 
  
-.. figure:: _static/25.JPG
+.. figure:: _static/v4_10.png
    :align:  center

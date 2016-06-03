@@ -52,26 +52,13 @@ Building the enclosure
 ---------------------------   
    
    
-Archive - older board versions
+Previous board versions
 --------------------------------------------------------
-
-Safecast Air Board v0.1 R3
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. toctree::
    :maxdepth: 1
 
-   hardware.rst
-   pcb_1.rst
-   pcb_2.rst
-   pcb_3.rst
-   pcb_4.rst
-   pcb_5.rst
-   pcb_6.rst
-   pcb_7.rst
-   pcb_8.rst
-   pcb_9.rst
-   pcb_10.rst
+   version_3.rst
 
    
 
