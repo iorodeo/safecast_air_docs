@@ -1,19 +1,6 @@
-Hardware
+Bill of Materials
 ===================
 
-
-Image of Prototype V0.1 R4 
-------------------------------
-
-
-.. figure:: _static/v4_10.png
-   :align:  center
-
-   
-  
-
-Bill Of Materials
---------------------
    
 **This is the BOM for prototype V0.1 R4**
 
@@ -27,7 +14,7 @@ R25                     1     22 Ohm resistor (SM0805)                        Di
 R26                     1     10K resistor (SM0805)                           Digikey                 311-10KARCT-ND
 R27                     1     20k resistor (SM0805)                           Digikey                 311-20.0KCRCT-ND
 R28                     1     12k resistor (SM0805)                           Digikey                 311-12KARCT-ND
-R29, R30                2     4.7k resistor (select via I2C requirements      Digikey                 311-4.70KCRCT-ND
+R29, R30                2     4.7k resistor (select via I2C requirements)     Digikey                 311-4.70KCRCT-ND
 C1                      1     0.1uf ceram. cap. (SMO805)                      Digikey                 311-1361-1-ND
 
 P1, P2 [#f1]_           2     Mini shrouded header, 5x2                       Digikey                 WM18560-ND

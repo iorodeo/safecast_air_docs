@@ -1,4 +1,4 @@
-5) Configuration and expansion headers
+Configuration and expansion headers
 ===========================================
 
 These pins provide access to additional features on the Teensy and some additional configuration options for the device.
@@ -10,12 +10,13 @@ These pins provide access to additional features on the Teensy and some addition
 * UEXT VOUT (P11) - Selects the power for the UEXT expansion header, whether it is 5V or 3.3V. For example, to select 5V, place a jumper on the right pins.
 
 
-Solder the 2x2 pins into positions P4 and P11.
+The kit includes a 36-position male breakaway header and two of the 2x2 pin headers. Take the brekaway header and carefully snap off 3 sets of 2-position headers. 
 
 .. figure:: _static/v4_5a.png
    :align:  center
 
-Take the 36-position male breakaway header and break off 3 sets of 2-position headers. Solder these into positions P5, P7 and P8. Solder with the longer pin facing up.
+* Solder the 2x2 pins into positions P4 and P11.
+* Solder the 2x1 headers into positions P5, P7 and P8. Solder with the longer pin facing up. 
 
    
 .. figure:: _static/v4_5b.png

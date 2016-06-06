@@ -2,7 +2,7 @@ Table of Contents
 =======================
 
 
-Safecast Air Board v0.1 R4 (current version)
+Safecast Air Board (v0.1 R4)
 ---------------------------------------------
 
 .. toctree::
@@ -13,7 +13,7 @@ Safecast Air Board v0.1 R4 (current version)
 
 
 Build Instructions
-^^^^^^^^^^^^^^^^^^^^^
+------------------------------
 
 .. toctree::
    :maxdepth: 2
@@ -27,6 +27,7 @@ Build Instructions
    v4_pcb_7.rst
    v4_pcb_8.rst
    v4_pcb_9.rst
+   v4_pcb_9b.rst
    v4_pcb_10.rst
    
    
@@ -49,8 +50,13 @@ Connecting sensors to the board
 
 
 Building the enclosure
----------------------------   
-   
+-----------------------------
+
+.. toctree::
+   :maxdepth: 2
+
+   enclosure_1.rst
+
    
 Previous board versions
 --------------------------------------------------------

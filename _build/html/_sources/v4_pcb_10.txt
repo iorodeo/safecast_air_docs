@@ -1,4 +1,4 @@
-10) Teensy board
+Teensy board
 ====================
 
 
@@ -9,9 +9,6 @@ Take the Teensy header and solder onto the Teensy board as shown in the image be
    :align:  center
 
 
-Program the Teensy with the Safecast Air firmware
-
-|
    
 Place the Teensy board into the female headers as shown below.
 
